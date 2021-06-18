@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.spacer {
+  margin: 150px;
+}
+
+header {
+  position: absolute;
+}
+
+header .logo {
+  width: 198px;
+  height: 101px;
+  margin: 0 30px;
+}
+
+body {
+  background-color: #171D39;
+}
+
+.section1 {
+  position: relative;
+  overflow-x: clip;
+  background: url("./Pictures/section1Shape.svg") no-repeat bottom;
+}
+
+.section1 .sectionWrapper {
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section1 .sectionWrapper .text {
+  width: 40%;
+  margin: 20px 0px;
+}
+
+.section1 .sectionWrapper .text h1 {
+  font-family: poppins;
+  font-weight: bold;
+  color: #6FE9B4;
+  font-size: 55px;
+}
+
+.section1 .sectionWrapper .text p {
+  font-size: 18px;
+  font-family: poppins;
+  color: #A4A7B2;
+  margin: 10px 0px 30px 0px;
+}
+
+.section1 .sectionWrapper .text button {
+  width: 194px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #D8DDFF;
+  border: none;
+  border-radius: 3px;
+}
+
+.section1 .sectionWrapper .imgBox {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: 60%;
+}
+
+.section2 {
+  background: url("./Pictures/Section2path.svg") no-repeat left;
+  background-size: contain;
+  background-position-x: -20px;
+}
+
+.section2 .sectionWrapper {
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section2 .sectionWrapper .imgBox {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  margin: 0 18px 0 0px;
+}
+
+.section2 .sectionWrapper .text {
+  width: 40%;
+  margin: 20px 0px;
+}
+
+.section2 .sectionWrapper .text h1 {
+  font-family: poppins;
+  font-weight: bold;
+  color: #6FE9B4;
+  font-size: 45px;
+}
+
+.section2 .sectionWrapper .text p {
+  font-size: 18px;
+  font-family: poppins;
+  color: #A4A7B2;
+  margin: 10px 0px 30px 0px;
+}
+
+.section2 .sectionWrapper .text button {
+  width: 194px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #D8DDFF;
+  border: none;
+  border-radius: 3px;
+}
+
+.services {
+  overflow-x: clip;
+  position: relative;
+}
+
+.services .container {
+  width: 80%;
+  margin: auto;
+}
+
+.services .container h2 {
+  color: #6FE9B4;
+  font-size: 64px;
+  text-align: center;
+  font-family: poppins;
+}
+
+.services .container .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .container .cardContainer .card {
+  width: 198px;
+  height: 233px;
+  background-color: #D8DDFF;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 24px;
+  margin: 20px;
+}
+
+.services .container .cardContainer img {
+  width: 150px;
+  height: 141px;
+}
+
+.services .container .cardContainer a
+h3 {
+  font-size: 23px;
+  font-family: poppins;
+  font-weight: 300;
+}
+
+.services .background {
+  position: absolute;
+  top: -1%;
+  bottom: 0;
+  z-index: -1;
+  width: 130%;
+  left: -10%;
+  height: 130%;
+}
+
+.projectSection {
+  width: 70%;
+  margin: auto;
+}
+
+.projectSection .accordion input[type="radio"] {
+  display: none;
+}
+
+.projectSection .accordion label {
+  width: 100%;
+  display: block;
+  color: #171D39;
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-family: poppins;
+  border-bottom: 1px solid #171D39;
+}
+
+.projectSection .accordion .accordionContent {
+  background-color: white;
+  display: none;
+  border-top: 1px solid #171D39;
+  padding: 10px;
+  opacity: 0;
+}
+
+.projectSection .accordion .accordionContent .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectSection .accordion .accordionContent .contentContainer .projectDetails {
+  width: 50%;
+  font-family: poppins;
+}
+
+.projectSection .accordion .accordionContent .contentContainer #projectImg {
+  width: 30%;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.projectSection .accordion .accordionContent .contentContainer #arrow {
+  width: 10%;
+}
+
+.projectSection input:checked ~ .accordionContent {
+  display: block;
+  opacity: 1;
+}
+
+.contactSection {
+  background: url("./Pictures/Group 19.svg") no-repeat center;
+  background-size: contain;
+  background-position: left;
+}
+
+.contactSection .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contactSection .contactContainer .imgBox {
+  width: 40%;
+  text-align: center;
+}
+
+.contactSection .contactContainer .imgBox img {
+  width: 314px;
+  height: 465px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+}
+
+.contactSection .contactContainer .contactInfo {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  margin-left: 20px;
+}
+
+.contactSection .contactContainer .contactInfo h2 {
+  font-family: "poppins";
+  color: #6FE9B4;
+  font-size: 55px;
+  text-align: center;
+}
+
+.contactSection .contactContainer .contactInfo h3 {
+  font-family: "poppins";
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  header .logo {
+    margin: auto;
+  }
+  #mainHeading {
+    font-size: 32px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  .secondaryHeading {
+    font-size: 32px !important;
+    text-align: center   !important;
+  }
+  .text {
+    width: 100% !important;
+    text-align: center;
+  }
+  .imgBox {
+    width: 100% !important;
+  }
+  .shapeBox {
+    bottom: -94px !important;
+  }
+  .section2 .sectionWrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .section2 .sectionWrapper .imgBox {
+    margin-top: 30px;
+  }
+  .projectDetails {
+    width: 100% !important;
+    display: none;
+  }
+  #section1Shape {
+    stroke-width: 90px;
+  }
+  .contactContainer .imgBox {
+    width: 100% !important;
+    text-align: center;
+  }
+  .contactContainer .imgBox img {
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
+    margin: auto;
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

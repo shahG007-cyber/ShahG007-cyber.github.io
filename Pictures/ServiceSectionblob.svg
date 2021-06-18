@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183.699" height="194.79" viewBox="0 0 183.699 194.79">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.807" y1="0.134" x2="0.069" y2="0.868" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.477" stop-color="#d8d1d1"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+  </defs>
+  <path id="ServiceSectionblob" d="M77.384-19.174c76.351-30.788,77.384,23.256,77.384,51.944s-9.208,67.306-65.017,57.09S0,61.457,0,32.77,1.033,11.613,77.384-19.174Z" transform="matrix(0.53, -0.848, 0.848, 0.53, 24.057, 146.283)" fill="url(#linear-gradient)"/>
+</svg>

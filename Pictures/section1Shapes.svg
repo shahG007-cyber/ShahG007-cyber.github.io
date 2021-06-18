@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="687.585" height="703.172" viewBox="0 0 687.585 703.172">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.477" y1="0.122" x2="0.044" y2="1.123" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.179" stop-color="#d8d7d7"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.807" y1="0.134" x2="0.069" y2="0.868" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.477" stop-color="#d8d1d1"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.715" x2="0.045" y2="0.972" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.877" y1="0.155" x2="0.108" y2="0.786" xlink:href="#linear-gradient-4"/>
+  </defs>
+  <g id="section1Shapes" transform="translate(-573.5 -21.871)">
+    <path id="triangle" d="M159.241,52.8c11.108-21.917,42.411-21.917,53.519,0L349.922,323.438A30,30,0,0,1,323.163,367H48.837a30,30,0,0,1-26.76-43.562Z" transform="translate(637.228 213.337) rotate(10)" fill="url(#linear-gradient)"/>
+    <path id="star" d="M83.823,77.091c9.6-26.268,46.753-26.268,56.354,0l9.244,25.291a30,30,0,0,0,5.088,8.856L172,132.32c17.81,21.467-.755,53.495-28.234,48.71L117.146,176.4a30,30,0,0,0-10.292,0L80.236,181.03C52.756,185.815,34.191,153.787,52,132.32l17.49-21.081a30,30,0,0,0,5.088-8.856Z" transform="matrix(-0.899, -0.438, 0.438, -0.899, 823.833, 349.853)" fill="url(#linear-gradient)"/>
+    <path id="blob_large" data-name="blob large" d="M35-7.955C67.97,4.089,70,6.432,70,24.179S65.835,65.817,40.593,59.5,0,41.926,0,24.179,2.03-20,35-7.955Z" transform="translate(1191 51.224)" fill="url(#linear-gradient-3)"/>
+    <path id="sami_circle" data-name="sami circle" d="M201.18,198.147a24.694,24.694,0,0,1-24.694,24.694H24.694A24.694,24.694,0,0,1,0,198.147C0,32.716,201.18,46.354,201.18,198.147Z" transform="matrix(0.914, 0.407, -0.407, 0.914, 1109.307, 439.641)" fill="url(#linear-gradient-4)"/>
+    <path id="blob_small" data-name="blob small" d="M503.361,129.55c-4.911-5.149-11.588-15.733-4.007-25.936s25.413-8.582,30.324-3.433,3.767,15.733-3.814,25.936S508.272,134.7,503.361,129.55Z" transform="translate(400 -74.25)" fill="url(#linear-gradient-5)"/>
+    <rect id="square" width="298" height="298" rx="34" transform="matrix(0.914, 0.407, -0.407, 0.914, 988.848, 76.456)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1338.367" height="610.727" viewBox="0 0 1338.367 610.727">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.516" y1="0.122" x2="0" y2="1.242" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.481" stop-color="#d8d7d7"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.179" y1="1.065" x2="0.726" y2="0.33" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.532" stop-color="#d8d7d7"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.807" y1="0.134" x2="0.069" y2="0.868" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.477" stop-color="#d8d1d1"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+  </defs>
+  <g id="Service_Section" data-name="Service Section" transform="translate(-56.633 -2128)">
+    <path id="ServiceSectionTriangle" d="M229.62,40.476a27,27,0,0,1,46.76,0L482.6,397.5a27,27,0,0,1-23.38,40.5H46.777A27,27,0,0,1,23.4,397.5Z" transform="translate(889 2128)" fill="url(#linear-gradient)"/>
+    <path id="ServiceSectionStar" d="M83.823,77.091c9.6-26.268,46.753-26.268,56.354,0l9.244,25.291a30,30,0,0,0,5.088,8.856L172,132.32c17.81,21.467-.755,53.495-28.234,48.71L117.146,176.4a30,30,0,0,0-10.292,0L80.236,181.03C52.756,185.815,34.191,153.787,52,132.32l17.49-21.081a30,30,0,0,0,5.088-8.856Z" transform="matrix(-0.899, -0.438, 0.438, -0.899, 351.833, 2431.853)" fill="url(#linear-gradient-2)"/>
+    <path id="ServiceSectionblob" d="M77.384-19.174c76.351-30.788,77.384,23.256,77.384,51.944s-9.208,67.306-65.017,57.09S0,61.457,0,32.77,1.033,11.613,77.384-19.174Z" transform="matrix(0.53, -0.848, 0.848, 0.53, 80.691, 2690.219)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
